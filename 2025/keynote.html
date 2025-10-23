@@ -1,0 +1,174 @@
+<html>
+<head>
+    <title>ANAI Workshop 2025 - Keynotes</title>
+    <meta name="google-site-verification" content="CP81HjWneBXMgB69FAhuh0dnvuYmg9Ert5Iup3vqzq0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/timetable.css" />
+    <style type="text/css">
+        .supported-by-container {
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: -10px;
+        }
+        .supported-by-container img {
+            margin-left: 10px;
+            height: 100px;
+        }
+        .darkcolor {
+            color: #4ab7f9;
+        }
+
+        .image.left {
+            float: left;
+            margin: 0 2em 2em 0;
+        }
+
+        .image.left img {
+            width: 200px;
+            height: auto;
+        }
+
+        /* 移动端响应式样式 */
+        @media screen and (max-width: 736px) {
+            .image.left {
+                float: none;
+                display: block;
+                margin: 0 auto 2em auto;
+                text-align: center;
+            }
+
+            .image.left img {
+                width: 150px;
+                margin: 0 auto;
+            }
+        }
+
+        /* Nav */
+        #nav {
+            position: relative;
+            display: block;
+            top: -14em;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        #nav > ul {
+            display: inline-block;
+            border-radius: 0.3em;
+            box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+            padding: 0 1em 0 1em;
+            background-color:rgb(250 250 250 / 0.90);
+        }
+
+        #nav > ul > li {
+            display: inline-block;
+            text-align: center;
+            padding: 0 1.5em 0 0.5em;
+        }
+
+        #nav > ul > li > a, #nav > ul > li > span {
+            display: block;
+            color: #222;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1vw;
+            font-weight: 700;
+            letter-spacing: 0.10em;
+            height: 4em;
+            line-height: 4em;
+            transition: all .25s ease-in-out;
+            outline: 0;
+        }
+
+        #nav > ul > li:hover > a {
+            color: #4da6ff;
+        }
+
+        #nav > ul > li.active > a, #nav > ul > li.active > span {
+            color: #FF5733;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+
+<body class="landing" sytle="margin-top: 0.8vw;">
+    <header id="header" class="alt">
+        <nav id="nav">
+            <ul>
+                <li style="white-space: nowrap;"><a href="index.html">Home</a></li>
+                <li style="white-space: nowrap;"><a href="program.html#main">Program</a></li>
+                <li class="current" style="white-space: nowrap;"><a href="keynote.html#main">Keynote</a></li>
+                <li style="white-space: nowrap;"><a href="organization.html#main">Organization</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="inner" style="margin-top: 1vw;">
+            <h2>ACM Workshop on Access Networks with Artificial Intelligence (ANAI 2025)</h2>
+            <h3>November 8, 2025, HKUST Campus, Hong Kong</h3>
+        </div>
+    </section>
+
+    <section id="main" class="wrapper style1">
+        <div class="container">
+            <section>
+                <h2 class="darkcolor">Keynote Speakers</h2>
+
+                <h3 id="keynote1">Keynote 1: WiFi-CSI Difference Paradigm for Accurate Doppler and AoA Estimation</h3>
+                <p>
+                    <strong>Speaker:</strong> <a href="https://cs.pku.edu.cn/info/1233/2054.htm">Daqing Zhang</a> (IP Paris and Peking University)<br>
+                </p>
+                <p>
+                    <span class="image left"><img src="images/daqing_zhang.png" alt="Daqing Zhang" style="width: 200px; height: auto;"></span>
+                    <strong>Abstract: </strong>
+                    Doppler and AoA estimation are fundamental to passive sensing/tracking/localization using narrow-band WiFi/4G/5G wireless signals. Despite various methods proposed, existing approaches remain susceptible to varying interference from multipath and random noise, making robust estimation challenging in indoor environments. This talk introduces a new WiFi-CSI difference paradigm grounded in intuitive insights and rigorous modeling, leading to robust and accurate Doppler and AoA estimation. Specifically, we propose utilizing CSI differences instead of original CSI for sensing parameter estimation, thereby inherently eliminating static multipath interference. Furthermore, our CSI difference model reveals that dynamically tuning the time interval of the differencing operation can significantly reduce the effects of dynamic multipath and random noise. Based on our theoretical analysis, we propose the first amplitude-phase fusion scheme to achieve high-precision Doppler estimation; we challenge conventional wisdom on the limits of AoA estimation and develop an iterative phase adjustment scheme to significantly expand the effective estimation range. Extensive real-time and real-world experiments demonstrate that our systems achieve the state-of-the-art performance in Doppler and AoA estimation across diverse environments and targets. We believe the CSI difference paradigm and our proposed methods represent a new milestone in WiFi/4G/5G Doppler and AoA estimation in indoor environments.
+                </p>
+                <p>
+                    <strong>Biography: </strong>
+                    Daqing Zhang is a Chair Professor at IP Paris and Peking University. His research interests include ubiquitous computing, mobile computing, big data analytics and AIoT. He has published more than 300 technical papers in leading conferences and journals, with a citation of over 33600 and H-index of 95. He developed the OWL-based context model and Fresnel Zone-based wireless sensing theory, which are widely used by pervasive computing, mobile computing, wireless networks and service computing communities. He was the first winner of the CCF Highest Science and Technology Award on Ubiquitous Computing, the Ten Years CoMoRea Impact Paper Award at IEEE PerCom 2013, and the Ten Years Most Influential Paper Award at IEEE UIC 2019 and FCS 2023, the Best Paper Award Runner-up at ACM MobiCom 2022, the Distinguished Paper Award of IMWUT (UbiComp 2021), etc.. He is now in the editorial board of ACM IMWUT, ACM TOSN and CCF TPCI. Daqing Zhang is a Fellow of IEEE and Member of the Academy of Europe.
+                </p>
+
+                <hr>
+
+                <h3 id="keynote2">Keynote 2: New Modalities in Wireless Sensing</h3>
+                <p>
+                    <strong>Speaker:</strong> <a href="https://dr.ntu.edu.sg/entities/person/Jie-Xiong">Jie Xiong</a> (Nanyang Technological University)<br>
+                </p>
+                <p>
+                    <span class="image left"><img src="images/xiongjie.png" alt="Jie Xiong" style="width: 200px; height: auto;"></span>
+                    <strong>Abstract: </strong>
+                    Wireless technologies have achieved remarkable success in data communication. In recent years, wireless signals (e.g., Wi-Fi) have also been leveraged for sensing, enabling exciting applications such as passive localization, contact-free gesture recognition, and vital sign monitoring. Despite this progress, the full potential of wireless sensing remains constrained by several fundamental challenges, including performance degradation under device motion and limited sensing granularity. In this talk, I will present our recent research efforts to address these challenges, focusing on: (i) our theoretical advances that, for the first time, enable robust wireless sensing under device motion; and (ii) a novel sensing modality―quantum wireless sensing―that pushes the boundaries of sensing granularity.
+                </p>
+                <p>
+                    <strong>Biography: </strong>
+                    Jie Xiong is a Nanyang Associate Professor in the College of Computing and Data Science at Nanyang Technological University (NTU). Prior to joining NTU, he was a Principal Researcher at Microsoft Research Asia and an Associate Professor at the University of Massachusetts Amherst. Jie earned his Ph.D. from University College London, M.S. from Duke University, and B.Eng. from Nanyang Technological University. His doctoral studies were supported by the Google European Doctoral Fellowship, and his dissertation was recognized as the Runner-Up for the 2016 British Computer Society Distinguished Dissertation Award. Jie's research interests span wireless sensing, mobile computing, and smart health. His work has received numerous accolades, including the SIGMOBILE 2024 Test-of-Time Award, MobiCom 2024 Best Paper Award, SenSys 2022 Best Paper Award, SECON 2022 Best Paper Award, UbiComp (IMWUT) 2021 Distinguished Paper Award, CoNEXT 2014 Best Paper Award, and Best Paper Runner-Up Awards at MobiCom 2020, 2021, and 2022. He is a recipient of the NSF CAREER Award and the NIH R01 Award.
+                </p>
+            </section>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <hr>
+        <span>Register for ANAI 2025 through <a href="https://www.sigmobile.org/mobicom/2025/">ACM MobiCom 2025</a>. Images from <a href="https://unsplash.com/">Unsplash</a></span>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.slidertron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.localtime-0.9.1.min.js"></script>
+</body>
+</html>
