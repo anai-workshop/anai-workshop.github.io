@@ -36,15 +36,22 @@
         /* 移动端响应式样式 */
         @media screen and (max-width: 736px) {
             .image.left {
-                float: none;
-                display: block;
-                margin: 0 auto 2em auto;
-                text-align: center;
+                float: none !important;
+                display: block !important;
+                margin: 0 auto 2em auto !important;
+                text-align: center !important;
             }
 
             .image.left img {
-                width: 150px;
-                margin: 0 auto;
+                width: 150px !important;
+                margin: 0 auto !important;
+                display: block !important;
+            }
+
+            /* 确保段落内容清除浮动，保持左对齐 */
+            section p {
+                clear: both;
+                text-align: left !important;
             }
         }
     </style>
