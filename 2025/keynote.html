@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/timetable.css" />
+    <link rel="stylesheet" href="assets/css/nav-custom.css" />
     <style type="text/css">
         .supported-by-container {
             font-weight: 500;
@@ -46,52 +47,6 @@
                 margin: 0 auto;
             }
         }
-
-        /* Nav */
-        #nav {
-            position: relative;
-            display: block;
-            top: -14em;
-            left: 0;
-            width: 100%;
-            text-align: center;
-        }
-
-        #nav > ul {
-            display: inline-block;
-            border-radius: 0.3em;
-            box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
-            padding: 0 1em 0 1em;
-            background-color:rgb(250 250 250 / 0.90);
-        }
-
-        #nav > ul > li {
-            display: inline-block;
-            text-align: center;
-            padding: 0 1.5em 0 0.5em;
-        }
-
-        #nav > ul > li > a, #nav > ul > li > span {
-            display: block;
-            color: #222;
-            text-transform: uppercase;
-            text-decoration: none;
-            font-size: 1vw;
-            font-weight: 700;
-            letter-spacing: 0.10em;
-            height: 4em;
-            line-height: 4em;
-            transition: all .25s ease-in-out;
-            outline: 0;
-        }
-
-        #nav > ul > li:hover > a {
-            color: #4da6ff;
-        }
-
-        #nav > ul > li.active > a, #nav > ul > li.active > span {
-            color: #FF5733;
-        }
     </style>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
@@ -108,14 +63,8 @@
         </nav>
     </header>
 
-    <!-- Banner -->
-    <section id="banner">
-        <div class="inner" style="margin-top: 1vw;">
-            <h2>ACM Workshop on Access Networks with Artificial Intelligence (ANAI 2025)</h2>
-            <h3>November 8, 2025, HKUST Campus, Hong Kong</h3>
-            <h3>A half-day workshop co-located with <a href="https://www.sigmobile.org/mobicom/2025/" target="_blank">ACM MobiCom 2025</a></h3>
-        </div>
-    </section>
+    <!-- Banner (loaded dynamically) -->
+    <div id="banner-placeholder"></div>
 
     <section id="main" class="wrapper style1">
         <div class="container">
@@ -171,5 +120,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.localtime-0.9.1.min.js"></script>
+    <script src="assets/js/load-banner.js"></script>
 </body>
 </html>
