@@ -48,6 +48,11 @@
                 word-wrap: break-word;
                 overflow-wrap: break-word;
             }
+
+            /* 确保 header 中的 br 标签在移动端正常显示 */
+            header.major p br {
+                display: block !important;
+            }
         }
 
     </style>
